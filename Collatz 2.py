@@ -1,6 +1,6 @@
 import pickle #ce module nous permettra d'enregistrer la liste de tous les entiers testés ainsi que leur temps de vol associé
 
-L=[] #on crée une liste vide dans laquelle nous enregistrerons plus tard les entiers testés avec leurs temps de vol respectifs
+L=[] #on crée une liste vide dans laquelle nous enregistrerons plus tard les entiers testés avec leurs temps de vol respectifs, et la valeur maximale atteinte dans la suite de Collatz associée
 def Collatz():
     LV=[] #on crée une liste vide dans laquelle nous enregistrerons toutes les valeurs prises par n avant d'atteindre 1.
     n = int(input('Entrez votre nombre:'))
