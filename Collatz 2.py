@@ -14,6 +14,7 @@ def Collatz():
         else:
             n = 3*n + 1
             i += 1
+    LV.append(1)
     MAX= max(LV)
     print(LV)
     print('Valeur maximale atteinte :', MAX)
