@@ -29,7 +29,7 @@ def Collatz():
                     n[j,k] = 3*(n[j,k])+1
         if i>500:
             quit()
-        i+=1 #corriger car tdv tjs sup de 1
+        i+=1
     if i == 0:
         print('Temps de vol:',i)
     else:
